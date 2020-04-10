@@ -23,7 +23,7 @@ with the following contents:
 ```js
 {
    "*": {
-      "*": [
+      ">=3000": [
          "resumeback"
       ]
    }
@@ -38,7 +38,7 @@ to make Package Control
 install the module for you locally
 (if you don't have it already).
 
-After all this
+After all this,
 you can use `import resumeback`
 in any of your Python plugins.
 
@@ -50,11 +50,11 @@ See also:
 
 1. Download the latest tarball
    from [pypi][].
-2. Delete everything inside the `all/` folder.
+2. Delete everything inside the `st3/` folder.
 3. Copy the `resumeback` folder
    and everything related to copyright/licensing
    from the tarball
-   to the `all/` folder.
+   to the `st3/` folder.
 4. Commit changes
    and either create a pull request
    or create a tag directly
@@ -68,7 +68,7 @@ The contents of the root folder
 in this repository
 are released
 under the *public domain*.
-The contents of the `all/` folder
+The contents of the `st3/` folder
 fall under *their own bundled licenses*.
 
 
